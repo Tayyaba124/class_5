@@ -5,9 +5,6 @@ import { Button } from '@/components/ui/button';
 import React, { useState } from 'react';
 
 const About = () => {
-  const thankYou=()=>{
-    alert("thank you")
-  }
   const [likes, setLikes] = useState(0);
 
   return (
